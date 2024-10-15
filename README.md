@@ -23,8 +23,8 @@ cd ClaytonBot
 ```
 npm install
 ```
-## Edit 'data.txt' lalu paste query_id+user_id kalian, Save 'CTRL+xy' (enter) 
-## jika kalian ingin mengisi 'proxy.txt' silahkan isi, jika tidak biarkan kosong
+## Edit `data.txt` lalu paste query_id+user_id kalian, Save `CTRL+xy` (enter) 
+## jika kalian ingin mengisi `proxy.txt` silahkan isi, jika tidak biarkan kosong
 ```
 nano data.txt
 ```
