@@ -1,3 +1,10 @@
+# Register HERE
+[![Static Badge](https://img.shields.io/badge/Telegram-Bot%20Link-Link?style=for-the-badge&logo=Telegram&logoColor=white&logoSize=auto&color=blue)](        )
+
+# Join Telegram  ♾︎ 
+[![Static Badge](https://img.shields.io/badge/Telegram-Airdrop◾unlimited-Link?style=for-the-badge&logo=Telegram&logoColor=white&logoSize=auto&color=blue)](https://t.me/UNLXairdop)
+
+
 
 # CLAYTON bot | via TERMUX 
 
