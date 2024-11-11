@@ -55,11 +55,6 @@ const colors = {
   timestamp: "\x1b[32m", // Green
   success: "\x1b[92m", // Bright Green
 
-  // Banner colors
-  bannerText: "\x1b[36m", // Cyan
-  bannerBorder: "\x1b[36m", // Cyan
-  bannerLinks: "\x1b[36m", // Cyan
-
   // Game status colors
   gameProgress: "\x1b[96m", // Bright Cyan
   gameSuccess: "\x1b[92m", // Bright Green
