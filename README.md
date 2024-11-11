@@ -8,7 +8,7 @@
 
 # CLAYTON bot | via TERMUX 
 
-## Moduls by TOR968
+## Moduls by GALKURTA 
 
 ## install 
 ```
@@ -21,22 +21,21 @@ pkg install nano
 pkg install nodejs
 ```
 ```
-git clone https://github.com/Rextouin-R/ClaytonBot/
+git clone https://github.com/Rextouin-R/Clayton-BOT/
 ```
 ## Buka file
 ```
-cd ClaytonBot
+cd Clayton-BOT
 ```
 ```
 npm install
 ```
 ## Edit `data.txt` lalu paste query_id+user_id kalian, Save `CTRL+xy` (enter) 
-## jika kalian ingin mengisi `proxy.txt` silahkan isi, jika tidak biarkan kosong
 ```
 nano data.txt
 ```
 ## Run bot
 ```
-node index.js
+node main.js
 ```
 ## Semoga berhasil 
