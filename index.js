@@ -3,6 +3,7 @@ const fs = require("fs");
 const readline = require("readline");
 const querystring = require("querystring");
 
+
 const BASE_URL = "https://tonclayton.fun";
 
 async function readFileLines(filePath) {
@@ -123,7 +124,24 @@ async function processAccount(initData, firstName, proxy) {
     try {
         const api = createApiClient(initData, proxy);
         let loginData = await apiFunctions.login(api);
-        log("Logged in successfully", "green");
+        log(`
+▄▀█ █ █▀█ █▀▄ █▀█ █▀█ █▀█ ∞
+█▀█ █ █▀▄ █▄▀ █▀▄ █▄█ █▀▀   
+┏━┓ ┏━┓         ┏━┓ ╔═╗             ╔═╗ ┏━┓__            ┏━┓
+┃ ┃ ┃ ┃ ┏━╻━━━┓ ┃ ┃ ┏━┓ ┏━╻━━╻━━━━┓ ┏━┓ ┃ ┏━┛  ┏━━━━╮ ╭━━╹ ┃
+┃ ┗━┛ ┃ ┃ ┏━┓ ┃ ┃ ┃ ┃ ┃ ┃ ┏━┓ ┏━┓ ┃ ┃ ┃ ┃ ┗━━┓ ┃ ┏━━┛ ┃ ━━ ┃
+┗━━━ ━┛ ┗━┛ ┗━┛ ┗━┛ ┗━┛ ┗━┛ ┗━┛ ┗━┛ ┗━┛ ┗━━━━┛ ┗━━━━┛ ╰━━━━┛
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                                █▀ █░ ▄▀█ █▄█ ▀█▀ █▀█ █▄░█
+                                █▄ █▄ █▀█ ░█░ ░█░ █▄█ █░▀█
+  `);
+          log("==> 🟦 join channel : https://t.me/UNLXairdop");
+          log("==> 🟦 join chat : https://t.me/+aXm5TBeS-QMyMGZl");
+          log("==================================≠===============");
+          log("==> ⬛ github : https://github.com/Rextouin-R/");
+          log("====================================≠=============");
+
+          log("Logged in successfully", "green");
 
         if (loginData.dailyReward.can_claim_today && loginData.dailyReward.is_subscribed) {
             await apiFunctions.claimDailyReward(api);
@@ -249,3 +267,4 @@ async function main() {
 }
 
 main();
+
